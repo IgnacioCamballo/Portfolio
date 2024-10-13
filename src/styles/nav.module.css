@@ -1,0 +1,39 @@
+
+.header {
+  padding-inline: 20%;
+  padding-block: 16px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color: var(--base);
+}
+
+.buttonsNav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button, a {
+  background-color: transparent;
+  border: none;
+  font-size: large;
+  color: gainsboro;
+  text-decoration: none;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.letra {
+  font-size: 90px;
+}
+
+.flags {
+  display: flex;
+  position: absolute;
+  top: 22px;
+  right: 40px;
+  gap: 16px;
+  cursor: pointer;
+}

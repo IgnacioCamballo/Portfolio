@@ -1,0 +1,42 @@
+{
+  "home": [
+    {"lenguage": "es", "text": "INICIO"},
+    {"lenguage": "en", "text": "HOME"}
+  ], 
+  "portfolio": [
+    {"lenguage": "es", "text": "PROYECTOS"},
+    {"lenguage": "en", "text": "PORTFOLIO"}
+  ], 
+  "contact": [
+    {"lenguage": "es", "text": "CONTACTO"},
+    {"lenguage": "en", "text": "CONTACT"}
+  ], 
+  "cont_dev": [
+    {"lenguage": "es", "text": "Desarroyador web y app mobiles"},
+    {"lenguage": "en", "text": "Mobile apps and web developer"}
+  ], 
+  "cont_about": [
+    {"lenguage": "es", "text": "texto explicativo sobre mi buscar inspiracion en otros portfolios texto explicativo sobre mi buscar inspiracion en otros portfolios texto explicativo sobre mi buscar inspiracion en otros portfoliostexto explicativo sobre mi buscar inspiracion en otros portfoliostexto explicativo sobre mi buscar inspiracion en otros portfolios"},
+    {"lenguage": "en", "text": "Mobile apps and web developer"}
+  ], 
+  "website": [
+    {"lenguage": "es", "text": "Página Web"},
+    {"lenguage": "en", "text": "Web Site"}
+  ], 
+  "pizzaria_jacare": [
+    {"lenguage": "es", "text": "Pizzaria Jacaré, Pagina web"},
+    {"lenguage": "en", "text": "Pizzaria Jacaré, Website"}
+  ], 
+  "pizzaria_jacare_description": [
+    {"lenguage": "es", "text": "Página web diseñada para la Pizzaria Jacaré, con portada de bienvenida, menú desde el cual se pueden seleccionar los platos a pedir con delivery, carrito de compras para solicitar el pedido de delivery y sección de contacto con redes sociales y mapa de la ubicación. Tambien cuenta con una pagina de administrador para que el propietario pueda cargar y modificar los platos en la base de datos"},
+    {"lenguage": "en", "text": "Website designed for Pizzaria Jacaré, with landing section, menu from where you can select the dishes to order, shoping cart to send your delivery order to the store, and contact section with social media and map location. Also has an admin page so the owner can add and update the dishes in the database"}
+  ], 
+  "shifts-table": [
+    {"lenguage": "es", "text": "Tabla de turnos, app mobil"},
+    {"lenguage": "en", "text": "Shifts-Table, mobile app"}
+  ], 
+  "shifts-table_description": [
+    {"lenguage": "es", "text": "Aplicacion disponible en Google Play Store, desarrollada para el control y seguimiento de turnos de trabajo del usuario, asi como para el control de saldos y pagos del mismo, con un calendario para facil vision de los dias trabajados"},
+    {"lenguage": "en", "text": "Aplication available in Google Play Store, developed for a better follow and control of the user work shifts,with wages and payments control section and a calendar where you can easily see the worked days"}
+  ]
+}    
