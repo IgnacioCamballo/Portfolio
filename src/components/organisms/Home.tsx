@@ -3,7 +3,7 @@ import styles from "../../styles/home.module.css"
 
 export default function Home() {
   return (
-    <div className={styles.home} id="home">
+    <section className={styles.home} id="home">
       <div className={styles.home_container}>
         <div className={styles.cont}>
           <h1 className={styles.cont_name} aria-label="name">Ignacio Camballo</h1>
@@ -12,6 +12,6 @@ export default function Home() {
         </div>
           <img src="./src/assets/foto.jpeg" alt="photo" className={styles.foto} aria-label="photo"></img>
       </div>
-    </div>
+    </section>
   )
 }

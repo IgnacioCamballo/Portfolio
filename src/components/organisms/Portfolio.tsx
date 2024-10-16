@@ -4,7 +4,7 @@ import ProyectCard from "../molecules/ProyectCard"
 
 export default function Portfolio() {
   return (
-    <div className={styles.container} id="portfolio">
+    <section className={styles.container} id="portfolio">
       <div className={styles.portfolio}>
         <ProyectCard 
           name="pizzariajacare"
@@ -24,6 +24,6 @@ export default function Portfolio() {
           googlePlay="https://play.google.com/store/apps/details?id=com.shiftstable"
         />
       </div>
-    </div>
+    </section>
   )
 }

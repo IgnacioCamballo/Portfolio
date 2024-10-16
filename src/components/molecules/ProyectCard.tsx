@@ -16,12 +16,14 @@ export default function ProyectCard({name, title, img, description, web, gitHub,
   const { setModalProyect} = usePortfolio()
   
   return (
-    <div className={styles.card} onClick={() => setModalProyect(true)}>
-      <img src={img} className={styles.card_imagen}/>
+    <div className={styles.card}>
+      <div className={styles.card_cont} onClick={() => setModalProyect(true)}>
+        <img src={img} className={styles.card_imagen}/>
 
-      <h3 className={styles.card_title}>{title}</h3>
-      
-      <p className={styles.card_description}>{description}</p>
+        <h3 className={styles.card_title}>{title}</h3>
+        
+        <p className={styles.card_description}>{description}</p>
+      </div>
 
       <div className={styles.card_buttons}>
         {!web || web !== "" && (
