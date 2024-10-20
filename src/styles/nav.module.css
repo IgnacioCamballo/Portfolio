@@ -1,10 +1,10 @@
 
 .header {
   padding-inline: 20%;
-  padding-block: 16px;
+  padding-block: 1rem;
   position: -webkit-sticky;
   position: sticky;
-  top: 0px;
+  top: 0rem;
   background-color: var(--base);
 }
 
@@ -26,14 +26,14 @@
 }
 
 .letra {
-  font-size: 90px;
+  font-size: 5.5rem;
 }
 
 .flags {
   display: flex;
   position: absolute;
-  top: 22px;
-  right: 40px;
-  gap: 16px;
+  top: 1.375rem;
+  right: 2.5rem;
+  gap: 1rem;
   cursor: pointer;
 }

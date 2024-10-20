@@ -17,7 +17,7 @@ function App() {
       <Portfolio />
 
       {modalProyect && (
-        <Modal onClose={() => setModalProyect(false)}>
+        <Modal onClose={() => setModalProyect(false)} width={"70%"}>
           <ProyectModal />
         </Modal>
       )}

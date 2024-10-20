@@ -11,15 +11,18 @@ const PortfolioContext = createContext<PortfolioContextProps>({} as PortfolioCon
 const PortfolioProvider = ({children}: props) => {
   const [lenguage, setLenguage] = useState("es")
   const [modalProyect, setModalProyect] = useState(false)
+  const [modalProyectType, setModalProyectType] = useState("")
 
   return (
     <PortfolioContext.Provider 
         value={{
           lenguage,
           modalProyect,
+          modalProyectType,
 
           setLenguage,
-          setModalProyect
+          setModalProyect,
+          setModalProyectType
         }}
       >
       {children}
