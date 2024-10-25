@@ -6,13 +6,13 @@ import proyectsInfo from "../../data/proyects.json"
 import usePortfolio from "../../hooks/usePortfolio"
 
 export default function ProyectModal() {
-  const {modalProyectType, lenguage} = usePortfolio()
+  const {modalProyectType, setModalProyect, lenguage} = usePortfolio()
   
   //looks for the img list depending on the proyect showed
   const dataProyect = proyectsInfo.proyects.find(proy => proy.name === modalProyectType)?.data
-  const dataImgs = lenguage === "es" ? dataProyect?.es.img : dataProyect?.en.img 
+  const dataL = lenguage === "es" ? dataProyect?.es : dataProyect?.en
   
-  const images = dataImgs?.map(image => ({original: image.src, originalAlt: image.alt}))
+  const images = dataL?.img.map(image => ({original: image.src, originalAlt: image.alt}))
   
   return (
     <div className={styles.proyectoModal}>
@@ -39,6 +39,10 @@ export default function ProyectModal() {
           )}
         />
       </div>
+      <svg className={styles.close} onClick={() => setModalProyect(false)} dat-slot="icon" fill="none" strokeWidth={1.5} stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+      </svg>
+      <p className={styles.text}>{dataL?.p1}</p>
     </div>
   )
 }

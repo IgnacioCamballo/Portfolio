@@ -14,7 +14,6 @@
   justify-content: center;
 }
 
-
 .card {
   display: flex;
   flex-direction: column;
@@ -33,25 +32,28 @@
   transition-duration: 0.2s;
 }
 
-.card_cont {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 18.75rem;
-}
-
 .card_imagen {
   border-radius: 10px;
   width: 18.75rem;
   height: 8.75rem;
-  cursor: pointer;
 }
 
 .card_title {
-  margin-block: 0.75rem;
+  margin-block: 1rem;
   color: black;
   font-size: 1.25rem;
+  cursor: default;
+}
+
+.descPhoto {
+  margin: 0rem;
+  text-decoration: underline;
   cursor: pointer;
+  font-weight: 500;
+  color: #000;
+}
+.descPhoto:hover {
+  color: #517481;
 }
 
 .card_description {
@@ -117,4 +119,12 @@
 .card_icon:hover {
   scale: 1.1;
   transition-duration: 0.2s;
+}
+
+.technologies {
+  display: flex;
+  gap: 1rem;
+  width: 90%;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
 }

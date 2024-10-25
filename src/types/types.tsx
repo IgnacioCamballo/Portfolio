@@ -8,7 +8,6 @@ export type Image = {
 export type ProyectInfo = {
   title: string,
   img: Image[],
-  description: string,
   p1?: string,
   p2?: string,
   p3?: string
@@ -17,12 +16,18 @@ export type ProyectInfo = {
 export type Proyect = {
   name: string,
   data: {
-    es: ProyectInfo,
-    en: ProyectInfo,
+    technologies: string[],
     web?: string | undefined,
     gitHub?: string | undefined,
-    googlePlay?: string | undefined
+    googlePlay?: string | undefined,
+    es: ProyectInfo,
+    en: ProyectInfo
   }
+}
+
+export type Icon = {
+  width: number,
+  height: number
 }
 
 export type PortfolioContextProps = {
