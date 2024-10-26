@@ -14,7 +14,7 @@ export default function JavaScriptIcon({ width, height }: Icon) {
         </g>
       </svg>
 
-      <p className={styles.techName}>JavaScript</p>
+      <p className={styles.techName}>Java Script</p>
     </div>
   )
 }

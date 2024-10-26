@@ -23,7 +23,7 @@ export default function ProyectModal() {
           showPlayButton={false}
           showBullets={true}
           renderItem={(item) => (
-            <div style={{ width: '100%', objectFit: "contain", objectPosition: "top" }}>
+            <div style={{ width: '100%', height: "100%", objectFit: "contain", objectPosition: "top" }}>
               <img
                 src={item.original}
                 style={{
@@ -31,7 +31,8 @@ export default function ProyectModal() {
                   objectPosition: 'center',
                   width: '100%',
                   height: '100%',
-                  maxHeight: "16rem"
+                  maxHeight: "16rem",
+                  borderRadius: "1rem"
                 }}
                 alt={item.originalAlt}
               />

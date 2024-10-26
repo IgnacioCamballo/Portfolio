@@ -6,7 +6,7 @@ import LinksButtons from "./LinksButtons"
 import TechIcons from "./TechIcons"
 
 export default function ProyectCard({proyectInfo}: {proyectInfo: Proyect}) {
-  const { setModalProyect, setModalProyectType, lenguage} = usePortfolio()
+  const {setModalProyect, setModalProyectType, lenguage} = usePortfolio()
 
   const proyectData = lenguage === "es" ? proyectInfo.data.es : proyectInfo.data.en
 
