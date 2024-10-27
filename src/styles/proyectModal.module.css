@@ -20,8 +20,6 @@
   right: 0.3rem;
   color: black;
   cursor: pointer;
-  width: 1.5rem;
-  height: 1.5rem;
 }
 
 .proyectModalImages {
@@ -37,8 +35,8 @@
   align-items: center;
 }
 
-.techName {
-  margin: 0;
+.techName { 
+  margin: 0; 
   font-size: small;
   font-weight: 500;
   color: black;
@@ -49,4 +47,10 @@
 .text {
   margin: 0;
   color: black;
+  overflow: auto;
+  font-family: var(--font2);
+  font-size: large;
+}
+.text::-webkit-scrollbar {
+  display: none;
 }

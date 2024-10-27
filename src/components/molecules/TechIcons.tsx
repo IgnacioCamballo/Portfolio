@@ -69,7 +69,7 @@ export default function TechIcons({ techs }: TechIconsProps) {
             slidesPerView={5}
             modules={[Autoplay]}
             autoplay={{ delay: 0 }}
-            speed={1000}
+            speed={1500}
             loop={true}
           >
             {techs.map((value, index) => <SwiperSlide key={index}>{iconSelector(value)}</SwiperSlide>)}

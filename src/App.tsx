@@ -5,15 +5,17 @@ import Home from "./components/organisms/Home"
 import Portfolio from "./components/organisms/Portfolio"
 import ProyectModal from "./components/molecules/ProyectModal"
 import Modal from "./components/molecules/Modal"
+import AboutMe from "./components/organisms/AboutMe"
 
 
 function App() {
   const {modalProyect, setModalProyect} = usePortfolio()
 
   return (
-    <>
+    <div id="home">
       <Header />
       <Home />
+      <AboutMe />
       <Portfolio />
 
       {modalProyect && (
@@ -21,7 +23,7 @@ function App() {
           <ProyectModal />
         </Modal>
       )}
-    </>
+    </div>
   )
 }
 

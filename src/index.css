@@ -5,10 +5,17 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  background-color: var(--base);
+  background: var(--baseg);
+  background-repeat: no-repeat;
 
+  --baseg: radial-gradient(100% 100% at 50% 0%, #061E62 0%, #020C28 22.27%, #010614 86.77%);
+  --baseg2: radial-gradient(100% 100% at 50% 100%, #061E62 0%, #020C28 43.61%, #010614 86.77%);
   --base: #010614;
   --card: #bbc4d3;
+  --name: #53c1de;
+  --text: #c3d4e4;
+  --font1: Verdana, Geneva, Tahoma, sans-serif;
+  --font2: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {

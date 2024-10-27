@@ -9,6 +9,7 @@ export default function ButtonsNav() {
   return (
     <div className={styles.buttonsNav}>
       <ButtonTr text={translate("home")} ariaLabel="home" href="#home"/>
+      <ButtonTr text={translate("about")} ariaLabel="about me" href="#aboutMe"/>
       <ButtonTr text={translate("portfolio")} ariaLabel="portfolio" href="#portfolio"/>
       <ButtonTr text={translate("contact")} ariaLabel="contact" href="#contact"/>
     </div>

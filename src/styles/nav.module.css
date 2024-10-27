@@ -1,11 +1,12 @@
 
 .header {
   padding-inline: 20%;
-  padding-block: 1rem;
+  padding-block: 0.75rem;
   position: -webkit-sticky;
   position: sticky;
   top: 0rem;
-  background-color: var(--base);
+  background: var(--base);
+  z-index: 1;
 }
 
 .buttonsNav {
@@ -32,7 +33,7 @@
 .flags {
   display: flex;
   position: absolute;
-  top: 1.375rem;
+  top: 1.1rem;
   right: 2.5rem;
   gap: 1rem;
   cursor: pointer;

@@ -11,13 +11,25 @@
     {"lenguage": "es", "text": "CONTACTO"},
     {"lenguage": "en", "text": "CONTACT"}
   ], 
+  "about": [
+    {"lenguage": "es", "text": "SOBRE MI"},
+    {"lenguage": "en", "text": "ABOUT ME"}
+  ], 
   "cont_dev": [
     {"lenguage": "es", "text": "Desarroyador web y de aplicaciones mobiles"},
     {"lenguage": "en", "text": "Mobile apps and web developer"}
   ], 
   "cont_about": [
-    {"lenguage": "es", "text": "texto explicativo sobre mi buscar inspiracion en otros portfolios texto explicativo sobre mi buscar inspiracion en otros portfolios texto explicativo sobre mi buscar inspiracion en otros portfoliostexto explicativo sobre mi buscar inspiracion en otros portfoliostexto explicativo sobre mi buscar inspiracion en otros portfolios"},
-    {"lenguage": "en", "text": "Mobile apps and web developer"}
+    {"lenguage": "es", "text": "Apasionado por la programación, en constante busqueda de nuevos conocimientos y tecnologías para solucionar problemas a travéz de código."},
+    {"lenguage": "en", "text": "Passionate about programming, in constant search for new knowledge and technologies to solve problems through code."}
+  ], 
+  "aboutMe": [
+    {"lenguage": "es", "text": "Sobre mí"},
+    {"lenguage": "en", "text": "About me"}
+  ], 
+  "aboutMe_text": [
+    {"lenguage": "es", "text": "Nacido en Argentina, mi trayectoria profesional inicio en la Ingeniería Mecánica, pero la inquietud por explorar el mundo me llevo a viajar y recorrer diversos países durante 8 años, relizando todo tipo de trabajos y conociendo personas de todos los ambientes. En esta etapa, descubrí que mi verdadera pasión era aquello que me habia llamado la atencion desde muy pequeño, por lo que en los últimos dos años, he profundizado mis conocimientos en programación, iniciando en desarrollo web, para luego expandirme a aplicaciones mobiles, con el objetivo de seguir adquiriendo conocimientos y sumando nuevas tecnologias para mejorar cada día."},
+    {"lenguage": "en", "text": "Born in Argentina, my professional career began in Mechanical Engineering, but the desire to explore the world led me to travel around many countries for 8 years, doing all types of jobs and meeting people from all backgrounds. In this journey, I discovered that my true passion was what had caught my attention since I was very little, so in the last two years, I have deepened my knowledge in programming, starting in web development, and then expanding to mobile applications, with the objective of continuing to acquire knowledge and adding new technologies to improve every day."}
   ], 
   "website": [
     {"lenguage": "es", "text": "Página Web"},

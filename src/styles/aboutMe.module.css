@@ -1,0 +1,58 @@
+.aboutMe_cont {
+  position: relative;
+  margin-top: 2rem;
+  width: 60%;
+  justify-self: center;
+  background-color: #0F172D;
+  border-radius: 1rem;
+  padding-block: 0.5rem;
+  overflow: hidden;
+  cursor: default;
+  box-shadow: -0.8rem 0.8rem 1rem #0000008c;
+}
+.aboutMe_cont::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -45%;
+  height: 200%;
+  width: 15%;
+  rotate: 45deg;
+  background: linear-gradient(to right, #d4e170, transparent);
+  transition: all 0.8s linear;
+}
+.aboutMe_cont::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  bottom: 3px;
+  right: 3px;
+  border-radius: 1rem;
+  background-color: #0F172D;
+}
+.aboutMe_cont:hover::before {
+  background: linear-gradient(to right, transparent, #d4e170);
+  left: 140%;
+}
+
+.id_holder {
+  position: relative;
+  top: -4rem;
+}
+
+.title {
+  position: relative;
+  margin: 0rem 1rem;
+  z-index: 1;
+}
+
+.text {
+  position: relative;
+  z-index: 1;
+  margin: 0rem 1rem;
+  font-family: var(--font2);
+  font-size: large;
+  font-weight: 300;
+  color: var(--text);
+}

@@ -40,7 +40,7 @@ export default function ProyectModal() {
           )}
         />
       </div>
-      <svg className={styles.close} onClick={() => setModalProyect(false)} dat-slot="icon" fill="none" strokeWidth={1.5} stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <svg width={30} height={30} className={styles.close} onClick={() => setModalProyect(false)} dat-slot="icon" fill="none" strokeWidth={1.5} stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
       </svg>
       <p className={styles.text}>{dataL?.p1}</p>

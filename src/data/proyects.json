@@ -13,7 +13,7 @@
             {"id": 2, "src": "./src/assets/pizzaria-jacare/menu.png", "alt": "imagen menu de pizzaria"},
             {"id": 3, "src": "./src/assets/pizzaria-jacare/contacto.png", "alt": "imagen contacto de pizzaria"}
           ],
-          "p1": "Página web diseñada para la Pizzaria Jacaré, con portada de bienvenida, menú desde el cual se podrán seleccionar los platos a pedir con delivery, carrito de compras en el cual se iran cargando los platos seleccionados para solicitar el pedido de delivery y sección de contacto con redes sociales y mapa de la ubicación. Tambien cuenta con una pagina de administrador para que el propietario pueda cargar y modificar los platos en la base de datos que sera utilizada para mostrar el menú."
+          "p1": "Página web diseñada para la Pizzaria Jacaré, cuenta con un menú donde se podrán observar los platos disponibles y cargarlos en el carro de compras, para luego pedir por delivery. En la sección Contacto, se encuentran las redes sociales y mapa de la ubicación del local. El propietario tiene acceso a una página donde puede cargar y modificar en la base de datos, los platos que seran utilizados para mostrar el menú."
         },
         "en": {
           "title": "Pizzaria Jacaré, Website",
@@ -22,7 +22,7 @@
             {"id": 2, "src": "./src/assets/pizzaria-jacare/menu.png", "alt": "image pizzaria menu"},
             {"id": 3, "src": "./src/assets/pizzaria-jacare/contacto.png", "alt": "image pizzaria contact"}
           ],
-          "p1": "Website designed for Pizzaria Jacaré, with landing section, menu from where you can select the dishes to order trough delivery, shoping cart where the selected dishes will be added to send your delivery order to the store, and contact section with social media and map location. Also has an admin page where the owner can add and update the dishes in the database from where the info will be taken to show the menu."
+          "p1": "Website designed for Pizzaria Jacaré, has a menu where you can see the available dishes and add them to the shoping cart to send your delivery order to the store. In the Contact section, you can find the social media and a map with the store location. The store manager has access to an admin page where he can add and update in the database from where the info will be taken to show the menu."
         }
       }
     },{
@@ -41,7 +41,7 @@
             {"id": 5, "src": "./src/assets/shifts-table/spanish/e4.jpg", "alt": "imagen 4 tabla de turnos"},
             {"id": 6, "src": "./src/assets/shifts-table/spanish/e5.jpg", "alt": "imagen 5 tabla de turnos"}
           ],
-          "p1": "Aplicación disponible en Google Play Store, desarrollada para el control y seguimiento de turnos de trabajo del usuario, en la sección inicial se puede observar un calendario con los correspondientes días trabajados marcados, ingresando en el día seleccionado se podra ver y administar los turnos trabajados ese día. En la sección totales se puede observar los totales de horas y salarios, trabajados y pagos y pendientes de pago, calculados automaticamente y si se desea se podra generar un listado de unicamente los días trabajados en orden cronológico pudiendo filtrar entre todos los dias, solo los ya pagos o los inpagos. Finalmente desde ajustes se podra configurar idioma, horariso predeterminados y crear las fichas de los empleadores con su respectiva información."
+          "p1": "Aplicación disponible en Google Play Store, desarrollada para el control y seguimiento de turnos de trabajo del usuario. En la sección inicial se puede observar un calendario marcado con los correspondientes días trabajados, ingresando en el día seleccionado, se podra ver y administar los turnos trabajados ese día. En la sección de totales se puede observar las horas y salarios trabajados, asi tambien los pagos y pendientes, que se calculan automaticamente. Si deseas se podra generar un listado de unicamente los días trabajados en orden cronológico pudiendo filtrar entre todos los dias, los ya pagos o los impagos. Finalmente desde ajustes se podra configurar idioma, horarios predeterminados y crear las fichas de los empleadores con su respectiva información."
         },
         "en": {
           "title": "Shifts-Table, mobile app",
@@ -53,7 +53,7 @@
             {"id": 5, "src": "./src/assets/shifts-table/english/e4.jpg", "alt": "image 4 shifts table"},
             {"id": 6, "src": "./src/assets/shifts-table/english/e5.jpg", "alt": "image 5 shifts table"}
           ],
-          "p1": "Aplication available in Google Play Store, developed for a better follow and control of the user work shifts, in the initial section you can see a calendar with the corresponding worked days marked, taping in the selected date you can see and manage the worked shifts for that day. In the totals section you can chack the hours and salary totals, worked, paid pending and paids autamaticaly calculated and if desired you can generate a list of the worked days of the month ordeded cronologicaly been able of filter between all, paid and unpaid. Finally from settings you can configure lenguage, default times and create the employers file with their respective information."
+          "p1": "Aplication available in Google Play Store, developed for a better follow and control of the user work shifts, in the initial section you can see a calendar with the corresponding worked days marked, taping in the selected date you can see and manage the worked shifts for that day. In the totals section you can chack the worked hours and salary totals, also the paid pending and paids that are calculated autamaticaly, and if desired you can generate a list of the worked days of the month ordeded cronologicaly been able of filter between all, paid and unpaid. Finally from settings you can configure lenguage, default times and create the employers file with their respective information."
         }
       }
     }  
