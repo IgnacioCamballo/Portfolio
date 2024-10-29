@@ -4,9 +4,9 @@
       "name": "pizzariaJacare",   
       "data": {
         "img": [
-          {"id": 1, "src": "./public/assets/pizzaria-jacare/portada.png", "alt": "imagen portada de pizzaria"},
-          {"id": 2, "src": "./public/assets/pizzaria-jacare/menu.png", "alt": "imagen menu de pizzaria"},
-          {"id": 3, "src": "./public/assets/pizzaria-jacare/contacto.png", "alt": "imagen contacto de pizzaria"}
+          {"id": 1, "src": "./dist/assets/pizzaria-jacare/portada.png", "alt": "imagen portada de pizzaria"},
+          {"id": 2, "src": "./dist/assets/pizzaria-jacare/menu.png", "alt": "imagen menu de pizzaria"},
+          {"id": 3, "src": "./dist/assets/pizzaria-jacare/contacto.png", "alt": "imagen contacto de pizzaria"}
         ],
         "technologies": ["react", "javaScript", "typeScript", "html", "css", "vite", "node", "express", "axios", "mongo"],
         "web": "https://pizzaria-jacare.netlify.app/",
@@ -24,12 +24,12 @@
       "name": "shiftsTable", 
       "data": {
         "img": [
-          {"id": 1, "src": "./public/assets/shifts-table/graficodefunciones.webp", "alt": "imagen presentación de turnos"},
-          {"id": 2, "src": "./public/assets/shifts-table/F1.webp", "alt": "imagen 1 tabla de turnos"},
-          {"id": 3, "src": "./public/assets/shifts-table/F2.webp", "alt": "imagen 2 tabla de turnos"},
-          {"id": 4, "src": "./public/assets/shifts-table/F3.webp", "alt": "imagen 3 tabla de turnos"},
-          {"id": 5, "src": "./public/assets/shifts-table/F4.webp", "alt": "imagen 4 tabla de turnos"},
-          {"id": 6, "src": "./public/assets/shifts-table/F5.webp", "alt": "imagen 5 tabla de turnos"}
+          {"id": 1, "src": "./dist/assets/shifts-table/graficodefunciones.webp", "alt": "imagen presentación de turnos"},
+          {"id": 2, "src": "./dist/assets/shifts-table/f1.webp", "alt": "imagen 1 tabla de turnos"},
+          {"id": 3, "src": "./dist/assets/shifts-table/f2.webp", "alt": "imagen 2 tabla de turnos"},
+          {"id": 4, "src": "./dist/assets/shifts-table/f3.webp", "alt": "imagen 3 tabla de turnos"},
+          {"id": 5, "src": "./dist/assets/shifts-table/f4.webp", "alt": "imagen 4 tabla de turnos"},
+          {"id": 6, "src": "./dist/assets/shifts-table/f5.webp", "alt": "imagen 5 tabla de turnos"}
         ],
         "technologies": ["reactNative", "javaScript", "typeScript", "html", "css", "expo", "firebase", "adMob"],
         "web": "a",
@@ -47,9 +47,9 @@
       "name": "scoresBoards", 
       "data": {
         "img": [
-          {"id": 1, "src": "./public/assets/Scores-Boards/graficodefunciones.webp", "alt": "imagen presentación anotador de puntos"},
-          {"id": 2, "src": "./public/assets/Scores-Boards/F1.webp", "alt": "imagen 1 scores boards"},
-          {"id": 3, "src": "./public/assets/Scores-Boards/F2.webp", "alt": "imagen 2 scores boards"}
+          {"id": 1, "src": "./dist/assets/Scores-Boards/graficodefunciones.webp", "alt": "imagen presentación anotador de puntos"},
+          {"id": 2, "src": "./dist/assets/Scores-Boards/f1.webp", "alt": "imagen 1 scores boards"},
+          {"id": 3, "src": "./dist/assets/Scores-Boards/f2.webp", "alt": "imagen 2 scores boards"}
         ],
         "technologies": ["reactNative", "javaScript", "typeScript", "html", "css", "expo", "firebase", "adMob"],
         "web": "a",

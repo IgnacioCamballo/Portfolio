@@ -10,7 +10,7 @@ export default function Home() {
           <h2 className={styles.cont_dev} aria-label="description">{translate("cont_dev")}</h2>
           <h4 className={styles.cont_about} aria-label="about me">{translate("cont_about")}</h4>
         </div>
-          <img src="./public/assets/foto.webp" alt="photo" className={styles.foto} aria-label="photo"></img>
+          <img src="./dist/assets/foto.webp" alt="photo" className={styles.foto} aria-label="photo"></img>
       </div>
     </section>
   )
