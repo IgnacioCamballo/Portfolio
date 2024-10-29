@@ -20,7 +20,7 @@ export default function Modal({children, onClose, width, height, maxWidth, maxHe
           left: 0,
           right: 0,
           bottom: 0,
-          backgroundColor: "rgba(0, 0, 0, 0.2)"
+          backgroundColor: "rgba(0, 0, 0, 0.4)"
         }}
         onClick={onClose}
         >
@@ -38,7 +38,8 @@ export default function Modal({children, onClose, width, height, maxWidth, maxHe
           width: width,
           height: height,
           maxWidth: maxWidth,
-          maxHeight: maxHeight
+          maxHeight: maxHeight,
+          zIndex: 1
         }}
       >
       {children}

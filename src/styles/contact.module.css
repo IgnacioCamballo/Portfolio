@@ -1,0 +1,102 @@
+.container {
+  position: relative;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+  width: 60%;
+}
+
+.id_holder {
+  position: absolute;
+  top: -5rem;
+}
+
+.title {
+  margin-bottom: 1rem;
+  font-size: xx-large;
+}
+
+.info_cont {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.mail_cont {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.letter {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.text_mail {
+  color: var(--name);
+  font-size: 20px;
+}
+
+.buttons_cont {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.buttons_subcont {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding-inline: 0.75rem;
+  padding-block: 0.25rem;
+  border-radius: 0.75rem;
+  background-color: var(--about);
+  box-shadow: -0.5rem 0.5rem 1rem #0000008c;
+  transition: all 0.2s ease;
+}
+.button:hover {
+  scale: 1.05;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 720px) {
+  .info_cont {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .buttons_cont {
+    flex-direction: column;
+    width: auto;
+    gap: 1.5rem;
+  }
+}

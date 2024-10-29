@@ -1,12 +1,30 @@
 .container {
+  position: relative;
   display: flex;
-  margin-top: 4rem;
-  margin-bottom: 6.25rem;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 4rem;
   width: 100%;
   justify-content: center;
 }
 
+.id_holder {
+  position: absolute;
+  top: -5rem;
+}
+
+@media (max-width: 700px) {
+  .id_holder {
+    top: -7rem
+  }
+}
+
+.title {
+  font-size: xx-large;
+}
+
 .portfolio {
+  margin-top: 1rem;
   width: 80%;
   display: flex;
   flex-wrap: wrap;

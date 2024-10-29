@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  padding-top: 3rem;
+  margin-block: 4rem;
 }
 
 .home_container {
@@ -44,4 +44,36 @@
   font-family: var(--font2);
   font-size: large;
   color: var(--text);
+}
+
+@media (max-width: 992px) {
+  .home_container {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .home_container {
+    width: 80%;
+  }
+
+  .foto {
+    width: 12rem;
+    height: 12rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .home_container {
+    flex-direction: column-reverse;
+    gap: 0.5rem;
+  }
+
+  .foto {
+    align-self: center;
+  }
+
+  .cont_name {
+    align-self: center;
+  }
 }

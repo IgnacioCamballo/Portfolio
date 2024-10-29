@@ -1,9 +1,9 @@
 .aboutMe_cont {
   position: relative;
-  margin-top: 2rem;
+  margin-block: 6rem;
   width: 60%;
   justify-self: center;
-  background-color: #0F172D;
+  background-color: var(--about);
   border-radius: 1rem;
   padding-block: 0.5rem;
   overflow: hidden;
@@ -14,9 +14,9 @@
   content: '';
   position: absolute;
   top: -50%;
-  left: -45%;
+  left: -80%;
   height: 200%;
-  width: 15%;
+  width: 30%;
   rotate: 45deg;
   background: linear-gradient(to right, #d4e170, transparent);
   transition: all 0.8s linear;
@@ -29,22 +29,71 @@
   bottom: 3px;
   right: 3px;
   border-radius: 1rem;
-  background-color: #0F172D;
+  background-color: var(--about);
 }
 .aboutMe_cont:hover::before {
   background: linear-gradient(to right, transparent, #d4e170);
-  left: 140%;
+  left: 150%;
+}
+
+@media (max-width: 992px) {
+  .aboutMe_cont {
+    width: 70%;
+  }
+  .aboutMe_cont::before {
+    left: -100%;
+  }
+  .aboutMe_cont:hover::before {
+    left: 180%;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutMe_cont {
+    width: 80%;
+  }
+
+  .aboutMe_cont::before {
+    left: -150%;
+  }
+  .aboutMe_cont:hover::before {
+    left: 220%;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutMe_cont::before {
+    left: -230%;
+  }
+  .aboutMe_cont:hover::before {
+    left: 300%;
+  }
+}
+
+@media (max-width: 380px) {
+  .aboutMe_cont::before {
+    left: -280%;
+  }
+  .aboutMe_cont:hover::before {
+    left: 340%;
+  }
 }
 
 .id_holder {
-  position: relative;
-  top: -4rem;
+  position: absolute;
+  top: -5rem;
+}
+
+@media (max-width: 700px) {
+  .id_holder {
+    top: -10rem
+  }
 }
 
 .title {
   position: relative;
-  margin: 0rem 1rem;
   z-index: 1;
+  margin: 0rem 1rem;
 }
 
 .text {

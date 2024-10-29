@@ -12,6 +12,7 @@ const PortfolioProvider = ({children}: props) => {
   const [lenguage, setLenguage] = useState("es")
   const [modalProyect, setModalProyect] = useState(false)
   const [modalProyectType, setModalProyectType] = useState("")
+  const [menuActive, setMenuActive] = useState(false)
 
   return (
     <PortfolioContext.Provider 
@@ -19,10 +20,11 @@ const PortfolioProvider = ({children}: props) => {
           lenguage,
           modalProyect,
           modalProyectType,
-
+          menuActive,
           setLenguage,
           setModalProyect,
-          setModalProyectType
+          setModalProyectType,
+          setMenuActive
         }}
       >
       {children}

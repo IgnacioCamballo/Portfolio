@@ -34,8 +34,9 @@ export type PortfolioContextProps = {
   lenguage: string,
   modalProyect: boolean,
   modalProyectType: string,
-
+  menuActive: boolean,
   setLenguage: React.Dispatch<React.SetStateAction<string>>,
   setModalProyect: React.Dispatch<React.SetStateAction<boolean>>,
   setModalProyectType: React.Dispatch<React.SetStateAction<string>>,
+  setMenuActive: React.Dispatch<React.SetStateAction<boolean>>
 }

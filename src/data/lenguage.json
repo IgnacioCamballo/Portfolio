@@ -3,13 +3,21 @@
     {"lenguage": "es", "text": "INICIO"},
     {"lenguage": "en", "text": "HOME"}
   ], 
-  "portfolio": [
+  "PORTFOLIO": [
     {"lenguage": "es", "text": "PROYECTOS"},
     {"lenguage": "en", "text": "PORTFOLIO"}
   ], 
-  "contact": [
+  "portfolio": [
+    {"lenguage": "es", "text": "Proyectos"},
+    {"lenguage": "en", "text": "Portfolio"}
+  ], 
+  "CONTACT": [
     {"lenguage": "es", "text": "CONTACTO"},
     {"lenguage": "en", "text": "CONTACT"}
+  ], 
+  "contact": [
+    {"lenguage": "es", "text": "Contacto"},
+    {"lenguage": "en", "text": "Contact"}
   ], 
   "about": [
     {"lenguage": "es", "text": "SOBRE MI"},

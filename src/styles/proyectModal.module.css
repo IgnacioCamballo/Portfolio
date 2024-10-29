@@ -1,5 +1,6 @@
 
 .proyectoModal {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,7 +12,6 @@
   border: 2px solid grey;
   border-radius: 1rem;
   gap: 1rem;
-  z-index: 1;
 }
 
 .close {
