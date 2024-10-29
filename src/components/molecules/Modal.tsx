@@ -1,4 +1,3 @@
-import { translate } from "../../helpers"
 
 type ModalProps = {
   children: React.ReactElement,
