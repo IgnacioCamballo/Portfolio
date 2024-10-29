@@ -126,6 +126,15 @@
   transition-duration: 0.2s;
 }
 
+.scoresBoards {
+  color: #000;
+  background-color: #09765B;
+}
+.scoresBoards:hover {
+  background-color: #08634c;
+  transition-duration: 0.2s;
+}
+
 .card_icon_a {
   display: flex;
   height: 2.5rem;

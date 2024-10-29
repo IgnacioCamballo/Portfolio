@@ -12,7 +12,7 @@ export default function ProyectModal() {
   const dataProyect = proyectsInfo.proyects.find(proy => proy.name === modalProyectType)?.data
   const dataL = lenguage === "es" ? dataProyect?.es : dataProyect?.en
   
-  const images = dataL?.img.map(image => ({original: image.src, originalAlt: image.alt}))
+  const images = dataProyect!.img.map(image => ({original: image.src, originalAlt: image.alt}))
   
   return (
     <div className={styles.proyectoModal}>

@@ -3,57 +3,64 @@
     {
       "name": "pizzariaJacare",   
       "data": {
+        "img": [
+          {"id": 1, "src": "./src/assets/pizzaria-jacare/portada.png", "alt": "imagen portada de pizzaria"},
+          {"id": 2, "src": "./src/assets/pizzaria-jacare/menu.png", "alt": "imagen menu de pizzaria"},
+          {"id": 3, "src": "./src/assets/pizzaria-jacare/contacto.png", "alt": "imagen contacto de pizzaria"}
+        ],
         "technologies": ["react", "javaScript", "typeScript", "html", "css", "vite", "node", "express", "axios", "mongo"],
         "web": "https://pizzaria-jacare.netlify.app/",
         "gitHub": "https://github.com/IgnacioCamballo/Pizzaria-Jacare",
         "es": {
           "title": "Pizzaria Jacaré, Pagina web",
-          "img": [
-            {"id": 1, "src": "./src/assets/pizzaria-jacare/portada.png", "alt": "imagen portada de pizzaria"},
-            {"id": 2, "src": "./src/assets/pizzaria-jacare/menu.png", "alt": "imagen menu de pizzaria"},
-            {"id": 3, "src": "./src/assets/pizzaria-jacare/contacto.png", "alt": "imagen contacto de pizzaria"}
-          ],
           "p1": "Página web diseñada para la Pizzaria Jacaré, cuenta con un menú donde se podrán observar los platos disponibles y cargarlos en el carro de compras, para luego pedir por delivery. En la sección Contacto, se encuentran las redes sociales y mapa de la ubicación del local. El propietario tiene acceso a una página donde puede cargar y modificar en la base de datos, los platos que seran utilizados para mostrar el menú."
         },
         "en": {
           "title": "Pizzaria Jacaré, Website",
-          "img": [
-            {"id": 1, "src": "./src/assets/pizzaria-jacare/portada.png", "alt": "image pizzaria home"},
-            {"id": 2, "src": "./src/assets/pizzaria-jacare/menu.png", "alt": "image pizzaria menu"},
-            {"id": 3, "src": "./src/assets/pizzaria-jacare/contacto.png", "alt": "image pizzaria contact"}
-          ],
           "p1": "Website designed for Pizzaria Jacaré, has a menu where you can see the available dishes and add them to the shoping cart to send your delivery order to the store. In the Contact section, you can find the social media and a map with the store location. The store manager has access to an admin page where he can add and update in the database from where the info will be taken to show the menu."
         }
       }
     },{
       "name": "shiftsTable", 
       "data": {
-      "technologies": ["reactNative", "javaScript", "typeScript", "html", "css", "expo", "firebase", "adMob"],
+        "img": [
+          {"id": 1, "src": "./src/assets/shifts-table/graficodefunciones.webp", "alt": "imagen presentación de turnos"},
+          {"id": 2, "src": "./src/assets/shifts-table/F1.webp", "alt": "imagen 1 tabla de turnos"},
+          {"id": 3, "src": "./src/assets/shifts-table/F2.webp", "alt": "imagen 2 tabla de turnos"},
+          {"id": 4, "src": "./src/assets/shifts-table/F3.webp", "alt": "imagen 3 tabla de turnos"},
+          {"id": 5, "src": "./src/assets/shifts-table/F4.webp", "alt": "imagen 4 tabla de turnos"},
+          {"id": 6, "src": "./src/assets/shifts-table/F5.webp", "alt": "imagen 5 tabla de turnos"}
+        ],
+        "technologies": ["reactNative", "javaScript", "typeScript", "html", "css", "expo", "firebase", "adMob"],
         "web": "a",
         "googlePlay": "https://play.google.com/store/apps/details?id=com.shiftstable",
         "es": {
           "title": "Tabla de turnos, app mobil",
-          "img": [
-            {"id": 1, "src": "./src/assets/shifts-table/graficodefunciones.jpg", "alt": "imagen presentación de turnos"},
-            {"id": 2, "src": "./src/assets/shifts-table/spanish/e1.jpg", "alt": "imagen 1 tabla de turnos"},
-            {"id": 3, "src": "./src/assets/shifts-table/spanish/e2.jpg", "alt": "imagen 2 tabla de turnos"},
-            {"id": 4, "src": "./src/assets/shifts-table/spanish/e3.jpg", "alt": "imagen 3 tabla de turnos"},
-            {"id": 5, "src": "./src/assets/shifts-table/spanish/e4.jpg", "alt": "imagen 4 tabla de turnos"},
-            {"id": 6, "src": "./src/assets/shifts-table/spanish/e5.jpg", "alt": "imagen 5 tabla de turnos"}
-          ],
           "p1": "Aplicación disponible en Google Play Store, desarrollada para el control y seguimiento de turnos de trabajo del usuario. En la sección inicial se puede observar un calendario marcado con los correspondientes días trabajados, ingresando en el día seleccionado, se podra ver y administar los turnos trabajados ese día. En la sección de totales se puede observar las horas y salarios trabajados, asi tambien los pagos y pendientes, que se calculan automaticamente. Si deseas se podra generar un listado de unicamente los días trabajados en orden cronológico pudiendo filtrar entre todos los dias, los ya pagos o los impagos. Finalmente desde ajustes se podra configurar idioma, horarios predeterminados y crear las fichas de los empleadores con su respectiva información."
         },
         "en": {
           "title": "Shifts-Table, mobile app",
-          "img": [
-            {"id": 1, "src": "./src/assets/shifts-table/graficodefunciones.jpg", "alt": "image shifts table"},
-            {"id": 2, "src": "./src/assets/shifts-table/english/e1.jpg", "alt": "image 1 shifts table"},
-            {"id": 3, "src": "./src/assets/shifts-table/english/e2.jpg", "alt": "image 2 shifts table"},
-            {"id": 4, "src": "./src/assets/shifts-table/english/e3.jpg", "alt": "image 3 shifts table"},
-            {"id": 5, "src": "./src/assets/shifts-table/english/e4.jpg", "alt": "image 4 shifts table"},
-            {"id": 6, "src": "./src/assets/shifts-table/english/e5.jpg", "alt": "image 5 shifts table"}
-          ],
           "p1": "Aplication available in Google Play Store, developed for a better follow and control of the user work shifts, in the initial section you can see a calendar with the corresponding worked days marked, taping in the selected date you can see and manage the worked shifts for that day. In the totals section you can chack the worked hours and salary totals, also the paid pending and paids that are calculated autamaticaly, and if desired you can generate a list of the worked days of the month ordeded cronologicaly been able of filter between all, paid and unpaid. Finally from settings you can configure lenguage, default times and create the employers file with their respective information."
+        }
+      }  
+    },{
+      "name": "scoresBoards", 
+      "data": {
+        "img": [
+          {"id": 1, "src": "./src/assets/Scores-Boards/graficodefunciones.webp", "alt": "imagen presentación anotador de puntos"},
+          {"id": 2, "src": "./src/assets/Scores-Boards/F1.webp", "alt": "imagen 1 scores boards"},
+          {"id": 3, "src": "./src/assets/Scores-Boards/F2.webp", "alt": "imagen 2 scores boards"}
+        ],
+        "technologies": ["reactNative", "javaScript", "typeScript", "html", "css", "expo", "firebase", "adMob"],
+        "web": "a",
+        "gitHub": "https://github.com/IgnacioCamballo/Scores-Boards",
+        "es": {
+          "title": "Scores Boards, app mobil",
+          "p1": "Desarrollada para contabilizar los puntajes en distintos juegos de cartas y dados como el 10.000, Generala o Truco, fácil y sencillo de utilizar, se puede cambiar de juegos sencillamente y sin tener que utilizar varias aplicaciones para llevar los puntajes de diferentes partidas, los puntajes quedan guardados por lo que se puede dejar la partida a la mitad y retomarla más adelante. Cuenta con constante trabajo para expandir la cantidad de juegos que se pueden anotar y la inclusión de los reglamentos de los mismos"
+        },
+        "en": {
+          "title": "Scores Boards, mobile app",
+          "p1": "Developed to count scores in different card and dice games such as Farkle, Generala or Truco, easy and simple to use, you can change games easily and without having to use several applications to keep the scores of different games, the scores remain saved so you can leave the game halfway and pick it up later. It has constant work to expand the number of games that can be scored and the inclusion of their regulations."
         }
       }
     }  

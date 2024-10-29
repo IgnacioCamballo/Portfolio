@@ -12,7 +12,7 @@ export default function ProyectCard({proyectInfo}: {proyectInfo: Proyect}) {
 
   return (
     <div className={styles.card}>
-      <img src={proyectData.img[0].src} alt={proyectData.img[0].alt} className={styles.card_imagen}/>
+      <img src={proyectInfo.data.img[0].src} alt={proyectInfo.data.img[0].alt} className={styles.card_imagen}/>
 
       <h3 className={styles.card_title}>{proyectData.title}</h3>
 

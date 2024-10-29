@@ -39,8 +39,8 @@ export default function Header() {
         }
         
         <div className={styles.flags}>
-          <img width={20} height={12} src="./src/assets/spain_flag.png" onClick={() => setLenguage("es")}/>
-          <img width={20} height={12} src="./src/assets/ingland_flag.png" onClick={() => setLenguage("en")}/>
+          <img width={20} height={12} src="./src/assets/spain_flag.webp" onClick={() => setLenguage("es")}/>
+          <img width={20} height={12} src="./src/assets/ingland_flag.webp" onClick={() => setLenguage("en")}/>
         </div>
       </div>
     </div>

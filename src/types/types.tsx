@@ -7,7 +7,6 @@ export type Image = {
 
 export type ProyectInfo = {
   title: string,
-  img: Image[],
   p1?: string,
   p2?: string,
   p3?: string
@@ -16,6 +15,7 @@ export type ProyectInfo = {
 export type Proyect = {
   name: string,
   data: {
+    img: Image[],
     technologies: string[],
     web?: string | undefined,
     gitHub?: string | undefined,
