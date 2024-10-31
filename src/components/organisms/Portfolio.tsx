@@ -8,7 +8,7 @@ export default function Portfolio() {
   return (
     <section className={styles.container}>
       <div id="portfolio" className={styles.id_holder}/>
-      <h2 className={styles.title}>{translate("portfolio")}</h2>
+      <h2 className={styles.title}><span>{translate("portfolioSpan")}</span>{translate("portfolio")}</h2>
       <div className={styles.portfolio}>
         {proyectsList.proyects.map(proyect => <ProyectCard key={proyect.name} proyectInfo={proyect}/>)}
       </div>

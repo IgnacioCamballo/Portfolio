@@ -23,6 +23,10 @@
   font-size: xx-large;
 }
 
+.title span {
+  color: var(--name);
+}
+
 .portfolio {
   margin-top: 1rem;
   width: 80%;

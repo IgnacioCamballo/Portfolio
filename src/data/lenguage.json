@@ -7,9 +7,13 @@
     {"lenguage": "es", "text": "PROYECTOS"},
     {"lenguage": "en", "text": "PORTFOLIO"}
   ], 
-  "portfolio": [
+  "portfolioSpan": [
     {"lenguage": "es", "text": "Proyectos"},
-    {"lenguage": "en", "text": "Portfolio"}
+    {"lenguage": "en", "text": "Proyects"}
+  ], 
+  "portfolio": [
+    {"lenguage": "es", "text": " que he desarrollado"},
+    {"lenguage": "en", "text": " I have developed"}
   ], 
   "CONTACT": [
     {"lenguage": "es", "text": "CONTACTO"},
@@ -32,12 +36,16 @@
     {"lenguage": "en", "text": "Passionate about programming, in constant search for new knowledge and technologies to solve problems through code."}
   ], 
   "aboutMe": [
-    {"lenguage": "es", "text": "Sobre mí"},
-    {"lenguage": "en", "text": "About me"}
+    {"lenguage": "es", "text": "Conoce un poco"},
+    {"lenguage": "en", "text": "Know a litle"}
+  ], 
+  "aboutMeSpan": [
+    {"lenguage": "es", "text": " sobre mí"},
+    {"lenguage": "en", "text": " about me"}
   ], 
   "aboutMe_text": [
-    {"lenguage": "es", "text": "Nacido en Argentina, mi trayectoria profesional inicio en la Ingeniería Mecánica, pero la inquietud por explorar el mundo me llevo a viajar y recorrer diversos países durante 8 años, relizando todo tipo de trabajos y conociendo personas de todos los ambientes. En esta etapa, descubrí que mi verdadera pasión era aquello que me habia llamado la atencion desde muy pequeño, por lo que en los últimos dos años, he profundizado mis conocimientos en programación, iniciando en desarrollo web, para luego expandirme a aplicaciones mobiles, con el objetivo de seguir adquiriendo conocimientos y sumando nuevas tecnologias para mejorar cada día."},
-    {"lenguage": "en", "text": "Born in Argentina, my professional career began in Mechanical Engineering, but the desire to explore the world led me to travel around many countries for 8 years, doing all types of jobs and meeting people from all backgrounds. In this journey, I discovered that my true passion was what had caught my attention since I was very little, so in the last two years, I have deepened my knowledge in programming, starting in web development, and then expanding to mobile applications, with the objective of continuing to acquire knowledge and adding new technologies to improve every day."}
+    {"lenguage": "es", "text": "Nacido en Argentina, mi trayectoria profesional inicio en la Ingeniería Mecánica, luego la inquietud por explorar el mundo me llevo a viajar y recorrer diversos países durante 8 años, relizando todo tipo de trabajos y conociendo personas de todos los ambientes. En esta etapa, descubrí que mi verdadera pasión era aquello que me habia llamado la atencion desde muy pequeño, por lo que en los últimos dos años, he profundizado mis conocimientos en programación, iniciando en desarrollo web, para luego expandirme a aplicaciones mobiles, con el objetivo de seguir adquiriendo conocimientos y sumando nuevas tecnologias para mejorar cada día."},
+    {"lenguage": "en", "text": "Born in Argentina, my professional career began in Mechanical Engineering, then the desire to explore the world led me to travel around many countries for 8 years, doing all types of jobs and meeting people from all backgrounds. In this journey, I discovered that my true passion was what had caught my attention since I was very little, so in the last two years, I have deepened my knowledge in programming, starting in web development, and then expanding to mobile applications, with the objective of continuing to acquire knowledge and adding new technologies to improve every day."}
   ], 
   "website": [
     {"lenguage": "es", "text": "Página Web"},

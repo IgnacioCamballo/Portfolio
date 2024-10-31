@@ -3,6 +3,7 @@
   margin-block: 6rem;
   width: 60%;
   justify-self: center;
+  align-self: center;
   background-color: var(--about);
   border-radius: 1rem;
   padding-block: 0.5rem;
@@ -94,6 +95,10 @@
   position: relative;
   z-index: 1;
   margin: 0rem 1rem;
+}
+
+.title span {
+  color: var(--yellow);
 }
 
 .text {
