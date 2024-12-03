@@ -6,7 +6,9 @@
         "img": [
           {"id": 1, "src": "/assets/pizzaria-jacare/portada.png", "alt": "imagen portada de pizzaria"},
           {"id": 2, "src": "/assets/pizzaria-jacare/menu.png", "alt": "imagen menu de pizzaria"},
-          {"id": 3, "src": "/assets/pizzaria-jacare/contacto.png", "alt": "imagen contacto de pizzaria"}
+          {"id": 3, "src": "/assets/pizzaria-jacare/contacto.png", "alt": "imagen contacto de pizzaria"},
+          {"id": 4, "src": "/assets/pizzaria-jacare/productos.png", "alt": "imagen crear productos"},
+          {"id": 5, "src": "/assets/pizzaria-jacare/categorias.png", "alt": "imagen crear categorias"}
         ],
         "technologies": ["react", "javaScript", "typeScript", "html", "css", "vite", "node", "express", "axios", "mongo"],
         "web": "https://pizzaria-jacare.netlify.app/",
