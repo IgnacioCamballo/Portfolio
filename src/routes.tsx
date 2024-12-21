@@ -7,7 +7,6 @@ export default function Router() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App/>} index/>
-        <Route path="/app-ads.txt" element={<App/>}/>
         <Route>
           <Route path="/Shifts-Table" element={<Shifts_Table/>} index/>
         </Route>
