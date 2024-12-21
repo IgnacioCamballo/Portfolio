@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 4rem;
   width: 60%;
 }
 
@@ -36,6 +35,19 @@
   margin: 0px;
   display: flex;
   justify-content: center;
+  transition: all 0.2s ease;
+}
+.letter:hover {
+  scale: 1.05;
+  
+}
+
+.letter_grey_line {
+  position: relative;
+}
+
+.letter:hover .letter_grey_line {
+  fill: var(--card);
 }
 
 .text_mail {

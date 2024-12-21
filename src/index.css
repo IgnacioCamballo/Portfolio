@@ -6,10 +6,8 @@
   color: white;
 
   color-scheme: light dark;
-  background: var(--baseg);
-  background-repeat: no-repeat;
 
-  --baseg: radial-gradient(100% 100% at 50% 0%, #061E62 0%, #020C28 22.27%, #010614 86.77%);
+  --baseg: radial-gradient(100% 100% at 50% 0%, #061E62 0%, #020C28 22.27%, #020C28 52.27%, #061746 72.27%, #020C28 86.77%);
   --baseg2: radial-gradient(100% 100% at 50% 100%, #061E62 0%, #020C28 43.61%, #010614 86.77%);
   --base: #010614;
   --about: #0F172D;
@@ -30,4 +28,34 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+.home_base {
+  background: var(--baseg);
+  background-repeat: no-repeat;
+  padding-bottom: 4rem;
+}
+
+.top_button {
+  position: absolute;
+  top: 200vh;
+  right: 1rem;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.top_button_fixed {
+  z-index: 1;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+@media (min-width: 1200px) {
+  .top_button_fixed,
+  .top_button {
+    right: 3rem;
+  }
 }

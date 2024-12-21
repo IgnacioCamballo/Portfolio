@@ -32,6 +32,10 @@
     {"lenguage": "en", "text": "Mobile apps and web developer"}
   ], 
   "cont_about": [
+    {"lenguage": "es", "text": "Creo soluciones digitales, trabajando en estrecha colaboración con mis clientes desde el inicio, hasta la implementación, definiendo objetivos y requisitos claros. Utilizando como base el conjunto de tecnologías MERN (MongoDb, Express, React y Node.js) para web y React-Native junto con FireBase para móvil, desarrollo productos de código limpio que no solo se enfocan en rendimiento, sino que también lo hacen en la experiencia de usuario."},
+    {"lenguage": "en", "text": "I create digital solutions, working closely with my clients from inception to implementation, defining clear objectives and requirements. Using MERN Stack (MongoDb, Express, React and Node.js) for web and React-Native along with FireBase for mobile, I develop clean code products that not only focus on performance, but also do so on the user experience."}
+  ], 
+  "old_cont_about": [
     {"lenguage": "es", "text": "Apasionado por la programación, en constante busqueda de nuevos conocimientos y tecnologías para solucionar problemas a travéz de código."},
     {"lenguage": "en", "text": "Passionate about programming, in constant search for new knowledge and technologies to solve problems through code."}
   ], 

@@ -3,10 +3,7 @@
   position: relative;
   padding-inline: 20%;
   padding-block: 0.75rem;
-  position: -webkit-sticky;
-  position: sticky;
   top: 0rem;
-  background: var(--base);
   z-index: 2;
   min-height: 1.5rem;
   transition: all 0.3s;
