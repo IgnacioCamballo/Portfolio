@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="home_base" id="home">
-      <div id="top_button" className={fixButton ? "top_button_fixed" : "top_button"}>
+      <div className={fixButton ? "top_button_fixed" : "top_button"}>
         <a aria-label="home"  href="#home">
           <TopArrow width={40} height={40}/>
         </a>

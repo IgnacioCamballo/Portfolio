@@ -1,8 +1,13 @@
 .body {
-background: linear-gradient(238.17deg, #2c4955 17.34%, #517481 34.91%, #21363E 73.69%);
-min-height: 100vh;
-font-family: "Faustina", serif;
-font-weight: 400;
-font-size: 100px;
+  background: linear-gradient(238.17deg, #5a92aa 20%, #488ca4 40%, #5a92aa 80%);
+  min-height: 100vh;
+  font-family: "Faustina", serif;
+  font-weight: 200;
+  position: relative;
+  padding-block: 1rem;
+}
+
+.title {
+font-size: 60px;
 }
 

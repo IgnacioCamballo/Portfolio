@@ -1,0 +1,52 @@
+.body {
+  background: linear-gradient(238.17deg, #517685 20%, #79aec2 40%, #517685 60%, #517685 70%, #79aec2 90%, #517685 100%);
+  color: black;
+  padding-block: 2rem;
+  padding-inline: 10%;
+  align-self: center;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid grey;
+  color: black;
+  background-color: var(--card);
+  box-shadow: -3px 5px 5px -3px rgba(0, 0, 0, 0.2), -3px 6px 6px -3px rgba(0, 0, 0, 0.05);
+  transition: all 0.1s ease;
+}
+
+.button:hover {
+  scale: 1.03;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.footer_container {
+  border-top: 1px solid grey;
+}
+
+.mail {
+  color: black;
+}
+
+.mail:hover {
+  cursor: pointer;
+}
+
+.top_button {
+  position: absolute;
+  top: 200vh;
+  right: 1rem;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.top_button_fixed {
+  z-index: 1;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  opacity: 1;
+  transition: all 0.5s ease;
+}

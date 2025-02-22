@@ -66,5 +66,9 @@
   "shifts-table": [
     {"lenguage": "es", "text": "Tabla de turnos, app mobil"},
     {"lenguage": "en", "text": "Shifts-Table, mobile app"}
+  ],
+  "back": [
+    {"lenguage": "es", "text": "Volver"},
+    {"lenguage": "en", "text": "Back"}
   ]
 }    
